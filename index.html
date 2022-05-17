@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<main class="form_container">
+    <form action="#" class="form" id="form">
+    <p class="form_title">Registration From</p>
+
+    <div class="form_control">
+        <label for="username">UserName</label>
+        <input type="text" name="username" id="username" placeholder="Enter your name..."/>
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <span>Error</span>
+    </div>
+
+    <div class="form_control">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email Id..."/>
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <span></span>
+    </div>
+
+    <div class="form_control">
+        <label for="mobile">Mobile Number</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="Enter your Mobile Number..."/>
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <span></span>
+    </div>
+
+    <div class="form_control">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Create Password"/>
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <span></span>
+    </div>
+
+    <div class="form_control">
+        <label for="conform-password">Confirm Password</label>
+        <input type="password" name="confirm-password" id="confirm-password" placeholder="Enter Same Password"/>
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <span></span>
+    </div>
+
+    <div class="form_control">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type Message...." id="message"></textarea>
+        <small>300 Characters Remaining</small>
+    </div>
+
+    <input type="submit" name="btn" id="btn">
+    </form>
+</main>
+
+
+
+
+
+<script src="./scripts/script.js"></script>
+</body>
+</html>
